@@ -7,7 +7,12 @@ use Hackspace\Suma;
 # operacion2 suma  5, 8
 
 $suma = new Suma(3,4);
-echo (string)$suma->ejecutar();
-echo "\n"; 
+echo $suma->ejecutar();
+echo "\n";
+
+$suma = new Suma(5,8);
+echo $suma->ejecutar();
+echo "\n";
+ 
 
 
